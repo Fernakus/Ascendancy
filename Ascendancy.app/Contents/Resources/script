@@ -1,0 +1,23 @@
+#!/bin/bash
+echo ------------------------------------------------------------
+echo
+echo " DOS Games Loader for MacOS prepared by GamesNostalgia.com"
+echo
+echo " If you like what we do, support us with a donation:"
+echo
+echo " -- http://gamesnostalgia.com/donate --"
+echo
+echo " Thanks to DOSBox http://www.dosbox.com/ for the emulator"
+echo
+echo " Go to http://gamesnostalgia.com for more retrogames"
+echo
+echo ------------------------------------------------------------
+echo
+echo " KEYS:"
+echo "  alt + Enter       Switch to fullscreen and back"
+echo "  fn+ctrl + F9      Quit"
+echo
+echo ------------------------------------------------------------
+sleep 3
+cd ".."
+./MacOS/DOSBox -conf ./Resources/dosbox.conf -conf ./Resources/dosbox_run.conf >/dev/null
